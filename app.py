@@ -4,7 +4,7 @@ from flask_json import FlaskJSON, JsonError, json_response, as_json, jsonify
 import json
 import random, string
 from flask import Flask, abort
-import numpy
+
 
 app = Flask(__name__)
 FlaskJSON(app)
